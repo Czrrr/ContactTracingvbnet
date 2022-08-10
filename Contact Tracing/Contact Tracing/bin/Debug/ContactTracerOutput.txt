@@ -1,0 +1,14 @@
+﻿FullName: CZr
+Age: 21
+Address: mama mo 
+Contact Number: 123334
+Gender: 
+Gender: Female
+
+
+****************************
+FullName: fsdfsdf 
+Age:  sdfsdfs
+Address: sdfsdfsd
+Contact Number: sdfsdfsdf
+Gender: Male

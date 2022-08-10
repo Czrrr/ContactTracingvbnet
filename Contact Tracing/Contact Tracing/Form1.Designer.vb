@@ -32,8 +32,8 @@ Partial Class Form1
         Me.LabelAddress = New System.Windows.Forms.Label()
         Me.ButtonSubmit = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.RadioButtonMale = New System.Windows.Forms.RadioButton()
         Me.RadioButtonFemale = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonMale = New System.Windows.Forms.RadioButton()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -120,17 +120,6 @@ Partial Class Form1
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
         '
-        'RadioButtonMale
-        '
-        Me.RadioButtonMale.AutoSize = True
-        Me.RadioButtonMale.Location = New System.Drawing.Point(43, 19)
-        Me.RadioButtonMale.Name = "RadioButtonMale"
-        Me.RadioButtonMale.Size = New System.Drawing.Size(48, 17)
-        Me.RadioButtonMale.TabIndex = 0
-        Me.RadioButtonMale.TabStop = True
-        Me.RadioButtonMale.Text = "Male"
-        Me.RadioButtonMale.UseVisualStyleBackColor = True
-        '
         'RadioButtonFemale
         '
         Me.RadioButtonFemale.AutoSize = True
@@ -138,9 +127,20 @@ Partial Class Form1
         Me.RadioButtonFemale.Name = "RadioButtonFemale"
         Me.RadioButtonFemale.Size = New System.Drawing.Size(59, 17)
         Me.RadioButtonFemale.TabIndex = 1
-        Me.RadioButtonFemale.TabStop = True
         Me.RadioButtonFemale.Text = "Female"
         Me.RadioButtonFemale.UseVisualStyleBackColor = True
+        '
+        'RadioButtonMale
+        '
+        Me.RadioButtonMale.AutoSize = True
+        Me.RadioButtonMale.Checked = True
+        Me.RadioButtonMale.Location = New System.Drawing.Point(43, 19)
+        Me.RadioButtonMale.Name = "RadioButtonMale"
+        Me.RadioButtonMale.Size = New System.Drawing.Size(48, 17)
+        Me.RadioButtonMale.TabIndex = 0
+        Me.RadioButtonMale.TabStop = True
+        Me.RadioButtonMale.Text = "Male"
+        Me.RadioButtonMale.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -157,7 +157,10 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBoxAge)
         Me.Controls.Add(Me.TextBoxName)
         Me.Controls.Add(Me.Labelname)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
+        Me.MaximizeBox = False
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Contact Tracing App"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
