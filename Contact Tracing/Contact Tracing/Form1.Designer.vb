@@ -22,29 +22,29 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Labelname = New System.Windows.Forms.Label()
         Me.TextBoxName = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TextBoxAge = New System.Windows.Forms.TextBox()
+        Me.LabelAge = New System.Windows.Forms.Label()
+        Me.LabelContactNumber = New System.Windows.Forms.Label()
+        Me.TextBoxContactnumber = New System.Windows.Forms.TextBox()
+        Me.TextBoxaddresss = New System.Windows.Forms.TextBox()
+        Me.LabelAddress = New System.Windows.Forms.Label()
+        Me.ButtonSubmit = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonMale = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonFemale = New System.Windows.Forms.RadioButton()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Label1
+        'Labelname
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(27, 30)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(38, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Name:"
+        Me.Labelname.AutoSize = True
+        Me.Labelname.Location = New System.Drawing.Point(27, 30)
+        Me.Labelname.Name = "Labelname"
+        Me.Labelname.Size = New System.Drawing.Size(38, 13)
+        Me.Labelname.TabIndex = 0
+        Me.Labelname.Text = "Name:"
         '
         'TextBoxName
         '
@@ -53,94 +53,94 @@ Partial Class Form1
         Me.TextBoxName.Size = New System.Drawing.Size(174, 20)
         Me.TextBoxName.TabIndex = 1
         '
-        'TextBox1
+        'TextBoxAge
         '
-        Me.TextBox1.Location = New System.Drawing.Point(120, 64)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(174, 20)
-        Me.TextBox1.TabIndex = 2
+        Me.TextBoxAge.Location = New System.Drawing.Point(120, 64)
+        Me.TextBoxAge.Name = "TextBoxAge"
+        Me.TextBoxAge.Size = New System.Drawing.Size(174, 20)
+        Me.TextBoxAge.TabIndex = 2
         '
-        'Label2
+        'LabelAge
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(27, 64)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(29, 13)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Age:"
+        Me.LabelAge.AutoSize = True
+        Me.LabelAge.Location = New System.Drawing.Point(27, 64)
+        Me.LabelAge.Name = "LabelAge"
+        Me.LabelAge.Size = New System.Drawing.Size(29, 13)
+        Me.LabelAge.TabIndex = 3
+        Me.LabelAge.Text = "Age:"
         '
-        'Label3
+        'LabelContactNumber
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(27, 130)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(87, 13)
-        Me.Label3.TabIndex = 7
-        Me.Label3.Text = "Contact Number:"
+        Me.LabelContactNumber.AutoSize = True
+        Me.LabelContactNumber.Location = New System.Drawing.Point(27, 130)
+        Me.LabelContactNumber.Name = "LabelContactNumber"
+        Me.LabelContactNumber.Size = New System.Drawing.Size(87, 13)
+        Me.LabelContactNumber.TabIndex = 7
+        Me.LabelContactNumber.Text = "Contact Number:"
         '
-        'TextBox2
+        'TextBoxContactnumber
         '
-        Me.TextBox2.Location = New System.Drawing.Point(120, 127)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(174, 20)
-        Me.TextBox2.TabIndex = 6
+        Me.TextBoxContactnumber.Location = New System.Drawing.Point(120, 127)
+        Me.TextBoxContactnumber.Name = "TextBoxContactnumber"
+        Me.TextBoxContactnumber.Size = New System.Drawing.Size(174, 20)
+        Me.TextBoxContactnumber.TabIndex = 6
         '
-        'TextBox3
+        'TextBoxaddresss
         '
-        Me.TextBox3.Location = New System.Drawing.Point(120, 92)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(174, 20)
-        Me.TextBox3.TabIndex = 5
+        Me.TextBoxaddresss.Location = New System.Drawing.Point(120, 92)
+        Me.TextBoxaddresss.Name = "TextBoxaddresss"
+        Me.TextBoxaddresss.Size = New System.Drawing.Size(174, 20)
+        Me.TextBoxaddresss.TabIndex = 5
         '
-        'Label4
+        'LabelAddress
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(27, 99)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(48, 13)
-        Me.Label4.TabIndex = 4
-        Me.Label4.Text = "Address:"
+        Me.LabelAddress.AutoSize = True
+        Me.LabelAddress.Location = New System.Drawing.Point(27, 99)
+        Me.LabelAddress.Name = "LabelAddress"
+        Me.LabelAddress.Size = New System.Drawing.Size(48, 13)
+        Me.LabelAddress.TabIndex = 4
+        Me.LabelAddress.Text = "Address:"
         '
-        'Button1
+        'ButtonSubmit
         '
-        Me.Button1.Location = New System.Drawing.Point(155, 241)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 8
-        Me.Button1.Text = "Submit"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ButtonSubmit.Location = New System.Drawing.Point(155, 241)
+        Me.ButtonSubmit.Name = "ButtonSubmit"
+        Me.ButtonSubmit.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonSubmit.TabIndex = 8
+        Me.ButtonSubmit.Text = "Submit"
+        Me.ButtonSubmit.UseVisualStyleBackColor = True
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.RadioButton2)
-        Me.GroupBox1.Controls.Add(Me.RadioButton1)
+        Me.GroupBox1.Controls.Add(Me.RadioButtonFemale)
+        Me.GroupBox1.Controls.Add(Me.RadioButtonMale)
         Me.GroupBox1.Location = New System.Drawing.Point(64, 175)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(297, 47)
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
         '
-        'RadioButton1
+        'RadioButtonMale
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(43, 19)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(48, 17)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Male"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.RadioButtonMale.AutoSize = True
+        Me.RadioButtonMale.Location = New System.Drawing.Point(43, 19)
+        Me.RadioButtonMale.Name = "RadioButtonMale"
+        Me.RadioButtonMale.Size = New System.Drawing.Size(48, 17)
+        Me.RadioButtonMale.TabIndex = 0
+        Me.RadioButtonMale.TabStop = True
+        Me.RadioButtonMale.Text = "Male"
+        Me.RadioButtonMale.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'RadioButtonFemale
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(156, 19)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(59, 17)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Female"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.RadioButtonFemale.AutoSize = True
+        Me.RadioButtonFemale.Location = New System.Drawing.Point(156, 19)
+        Me.RadioButtonFemale.Name = "RadioButtonFemale"
+        Me.RadioButtonFemale.Size = New System.Drawing.Size(59, 17)
+        Me.RadioButtonFemale.TabIndex = 1
+        Me.RadioButtonFemale.TabStop = True
+        Me.RadioButtonFemale.Text = "Female"
+        Me.RadioButtonFemale.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -148,15 +148,15 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(401, 351)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.ButtonSubmit)
+        Me.Controls.Add(Me.LabelContactNumber)
+        Me.Controls.Add(Me.TextBoxContactnumber)
+        Me.Controls.Add(Me.TextBoxaddresss)
+        Me.Controls.Add(Me.LabelAddress)
+        Me.Controls.Add(Me.LabelAge)
+        Me.Controls.Add(Me.TextBoxAge)
         Me.Controls.Add(Me.TextBoxName)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Labelname)
         Me.Name = "Form1"
         Me.Text = "Contact Tracing App"
         Me.GroupBox1.ResumeLayout(False)
@@ -166,16 +166,16 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents Label1 As Label
+    Friend WithEvents Labelname As Label
     Friend WithEvents TextBoxName As TextBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents TextBoxAge As TextBox
+    Friend WithEvents LabelAge As Label
+    Friend WithEvents LabelContactNumber As Label
+    Friend WithEvents TextBoxContactnumber As TextBox
+    Friend WithEvents TextBoxaddresss As TextBox
+    Friend WithEvents LabelAddress As Label
+    Friend WithEvents ButtonSubmit As Button
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents RadioButtonFemale As RadioButton
+    Friend WithEvents RadioButtonMale As RadioButton
 End Class
