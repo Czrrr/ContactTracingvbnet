@@ -1,0 +1,13 @@
+C:\Users\Czr\source\repos\CZR-contacttracing\Contact Tracing\Contact Tracing\bin\Debug\Contact Tracing.exe.config
+C:\Users\Czr\source\repos\CZR-contacttracing\Contact Tracing\Contact Tracing\bin\Debug\Contact Tracing.exe
+C:\Users\Czr\source\repos\CZR-contacttracing\Contact Tracing\Contact Tracing\bin\Debug\Contact Tracing.pdb
+C:\Users\Czr\source\repos\CZR-contacttracing\Contact Tracing\Contact Tracing\bin\Debug\Contact Tracing.xml
+C:\Users\Czr\source\repos\CZR-contacttracing\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.vbproj.AssemblyReference.cache
+C:\Users\Czr\source\repos\CZR-contacttracing\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Czr\source\repos\CZR-contacttracing\Contact Tracing\Contact Tracing\obj\Debug\Contact_Tracing.Form1.resources
+C:\Users\Czr\source\repos\CZR-contacttracing\Contact Tracing\Contact Tracing\obj\Debug\Contact_Tracing.Resources.resources
+C:\Users\Czr\source\repos\CZR-contacttracing\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.vbproj.GenerateResource.cache
+C:\Users\Czr\source\repos\CZR-contacttracing\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.vbproj.CoreCompileInputs.cache
+C:\Users\Czr\source\repos\CZR-contacttracing\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.exe
+C:\Users\Czr\source\repos\CZR-contacttracing\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.xml
+C:\Users\Czr\source\repos\CZR-contacttracing\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.pdb
